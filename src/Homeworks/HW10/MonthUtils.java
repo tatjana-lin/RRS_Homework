@@ -3,36 +3,36 @@ package Homeworks.HW10;
 public class MonthUtils {
     //Создать класс MonthUtils который бы хранил подготовленные месяцы или их массивы для использования (объекты класса Month).
 
-    public static final Month january = new Month("January", 31, 23);
-    public static final Month february = new Month("February", 28, 20);
-    public static final Month march = new Month("March", 31, 21);
-    public static final Month april = new Month("April", 30, 22);
-    public static final Month may = new Month("May", 31, 21);
-    public static final Month june = new Month("June", 30, 21);
-    public static final Month july = new Month("July", 31, 23);
-    public static final Month august = new Month("August", 31, 21);
-    public static final Month september = new Month("September", 30, 21);
-    public static final Month october = new Month("October", 31, 23);
-    public static final Month november = new Month("November", 30, 20);
-    public static final Month december = new Month("December", 31, 22);
+    public static final Month JANUARY = new Month("January", 31, 23);
+    public static final Month FEBRUARY = new Month("February", 28, 20);
+    public static final Month MARCH = new Month("March", 31, 21);
+    public static final Month APRIL = new Month("April", 30, 22);
+    public static final Month MAY = new Month("May", 31, 21);
+    public static final Month JUNE = new Month("June", 30, 21);
+    public static final Month JULY = new Month("July", 31, 23);
+    public static final Month AUGUST = new Month("August", 31, 21);
+    public static final Month SEPTEMBER = new Month("September", 30, 21);
+    public static final Month OCTOBER = new Month("October", 31, 23);
+    public static final Month NOVEMBER = new Month("November", 30, 20);
+    public static final Month DECEMBER = new Month("December", 31, 22);
 
     public static Month[] allMonths = {
-            january, february, march, april, may, june,
-            july, august, september, october, november, december
+            JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE,
+            JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
     };
     public static Month[] januaryArray = {
-            january
+            JANUARY
     };
     public static Month[] firstQuarter = {
-            january, february, march
+            JANUARY, FEBRUARY, MARCH
     };
     public static Month[] secondQuarter = {
-            april, may, june
+            APRIL, MAY, JUNE
     };
     public static Month[] thirdQuarter = {
-            july, august, september
+            JULY, AUGUST, SEPTEMBER
     };
     public static Month[] fourthQuarter = {
-            october, november, december
+            OCTOBER, NOVEMBER, DECEMBER
     };
 }

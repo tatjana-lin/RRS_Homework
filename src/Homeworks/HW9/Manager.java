@@ -13,7 +13,7 @@ public class Manager {
     private final String name;
     private int age;
     private String gender;
-    private double dailySalary;
+    private final double dailySalary;
     private int subordinates;
 
     public Manager(String name, int age, String gender, double dailySalary, int subordinates) {
@@ -47,6 +47,18 @@ public class Manager {
 
     public double getDailySalary() {
         return dailySalary;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setSubordinates(int subordinates) {
+        this.subordinates = subordinates;
     }
 
     public int getSubordinates() {

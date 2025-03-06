@@ -14,7 +14,7 @@ public class Employee {
     private final String name;
     private int age;
     private String gender;
-    private double dailySalary;
+    private final double dailySalary;
 
     public Employee(String name, double dailySalary) {
         this.name = name;
@@ -63,7 +63,4 @@ public class Employee {
         return dailySalary;
     }
 
-    public void setDailySalary(double dailySalary) {
-        this.dailySalary = dailySalary;
-    }
 }
